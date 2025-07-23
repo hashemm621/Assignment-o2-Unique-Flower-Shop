@@ -1,9 +1,13 @@
 @import "tailwindcss";
 /* import font family cdn */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-/* font-family: "Noto Serif", serif;
-font-family: "Inter", sans-serif; */
 
+.noto-font {
+  font-family: "Noto Serif", serif;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
 /* sheard css */
 img {
   max-width: 100%;
