@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unique Flower Shop</title>
+    <title>Unique Flowers Shop</title>
 
     <!-- font-awesome cdn -->
     <link
@@ -35,24 +35,57 @@
               alt="this is a logo of the Flower Shop"
           /></a>
         </div>
+
         <ul class="flex justify-between items-center gap-12">
-          <li class="hidden md:block">
-            <a class="text-black" href="#">Home</a>
+          <li class="hidden md:block hover:scale-110 transition-all">
+            <a class="text-black hover:text-orange-600" href="#">Home</a>
           </li>
-          <li class="hidden md:block">
-            <a class="text-zinc-500" href="#">Shop</a>
+          <li class="hidden md:block hover:scale-110 transition-all">
+            <a class="text-zinc-500 hover:text-orange-600" href="#">Shop</a>
           </li>
-          <li class="hidden md:block">
-            <a class="text-zinc-500" href="#">About Us</a>
+          <li class="hidden md:block hover:scale-110 transition-all">
+            <a class="text-zinc-500 hover:text-orange-600" href="#">About Us</a>
           </li>
-          <li>
-            <a class="text-black md:text-zinc-500" href="#"
+          <li class="hover:scale-110 transition-all">
+            <a
+              class="text-black md:text-zinc-500 hover:text-orange-600"
+              href="#"
               ><i class="fa-solid fa-cart-plus"></i> Cart($56)</a
             >
           </li>
         </ul>
       </nav>
       <!-- navbar end -->
+
+      <!-- banner section start -->
+      <section
+        class="flex flex-col-reverse mx-4 mt-7 gap-7 items-center md:flex-row md:justify-between md:mt-20 lg:mt-28 lg:mx-0"
+      >
+        <div class="md:max-w-1/2">
+          <h1
+            class="text-2xl uppercase font-bold text-black mb-3.5 md:text-5xl lg:text-6xl"
+          >
+            always
+            <span class="text-orange-600"
+              >fresh <br />
+              Flowers</span
+            >
+          </h1>
+          <p class="text-sm text-black/50 md:text-2xl">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="./images/hero-flower.png"
+            alt="this is hero section image. Its contain  characteristics of this shop"
+          />
+        </div>
+      </section>
+      <!-- banner section end -->
     </header>
     <!-- header section end here -->
 
