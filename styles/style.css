@@ -24,6 +24,6 @@ img {
   }
 }
 
-.spin:hover {
+.spin-section:hover .spin {
   animation: spiner 3s linear 1s 3 forwards;
 }
