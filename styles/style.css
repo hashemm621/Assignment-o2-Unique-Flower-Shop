@@ -13,3 +13,17 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+
+/* rotate trasted badge */
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin:hover {
+  animation: spiner 3s linear 1s 3 forwards;
+}
