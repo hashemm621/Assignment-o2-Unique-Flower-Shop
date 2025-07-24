@@ -368,7 +368,7 @@
 
     <!-- subscribe section start -->
     <section
-      class="relative mt-10 px-9 pt-28 pb-16 text-center bg-[url('./images/news-letter-bg.png')] bg-cover bg-no-repeat bg-center"
+      class="relative mt-10 px-9 pt-28 pb-16 text-center bg-[url('./images/news-letter-bg.png')] bg-cover bg-no-repeat bg-center lg:mt-32"
     >
       <div class="absolute inset-0 bg-black/50"></div>
       <div class="relative flex flex-col justify-center items-center">
@@ -392,7 +392,48 @@
     <!-- subscribe section end -->
 
     <!-- footer section start here -->
-    <footer></footer>
+    <footer class="max-w-6xl mx-auto">
+      <!-- parent div -->
+      <div class="mx-4 mt-14 grid gap-5 mb-20 md:grid-cols-3 md:justify-center md:items-center lg:grid-cols-4 lg:items-start">
+        <!-- copy rights here -->
+        <div>
+          <img class="mb-4" src="./images/logo.png" alt="this is a logo image" />
+          <p class="inter-font text-black/50">Unique Flowers Shop <br />All copyrights reservd &copy; 2025</p>
+        </div>
+        <!-- list links -->
+        <!-- list 1 -->
+        <ul class="grid gap-8">
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Home</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">About Us</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Blog</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">FAQ</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Contact Us</a></li>
+        </ul>
+        <!-- list 2 -->
+        <ul class="grid gap-8">
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Features</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Pricing</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Privacy Policy</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Terms of Servie</a></li>
+          <li><a class="text-gray-500 hover:text-orange-600" href="#">Help Center</a></li>
+        </ul>
+        <!-- soscia links -->
+        <div class="flex gap-6 items-center">
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="./images/icon-linkedin.png" alt="linkedin icon"
+          /></a>
+          <a href="https://x.com/" target="_blank"
+            ><img src="./images/icon-twitter.png" alt="twitter icon"
+          /></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="./images/icon-facebook.png" alt="icon-facebook"
+          /></a>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img src="./images/icon-youtube.png" alt="youtube icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
     <!-- footer section end here -->
 
     <script src="./js/main.js"></script>
